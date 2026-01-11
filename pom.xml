@@ -39,15 +39,14 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <finalName>invoice-app</finalName>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <configuration>
+                <mainClass>com.invoice.InvoiceApplication</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>
