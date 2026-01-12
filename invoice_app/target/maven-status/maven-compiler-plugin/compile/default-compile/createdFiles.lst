@@ -1,5 +1,0 @@
-com\invoice\model\Invoice.class
-com\invoice\controller\InvoiceController.class
-com\invoice\InvoiceApplication.class
-com\invoice\service\InvoiceService.class
-com\invoice\model\InvoiceItem.class
